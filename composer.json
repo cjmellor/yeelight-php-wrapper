@@ -1,0 +1,19 @@
+{
+    "name": "cjmellor/yeelight-php",
+    "description": "A PHP wrapper for the Yeelight API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Chris Mellor",
+        "email": "cmellor@gmail.com"
+    }],
+    "require": {
+        "ext-json": "*",
+        "spatie/color": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yeelight\\": "src/"
+        }
+    }
+}
